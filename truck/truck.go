@@ -9,7 +9,7 @@ type Truck struct {
 	Model string
 }
 
-func (t *Truck) GetTruck(truck Truck) string {
+func GetTruck(truck Truck) string {
 	if truck == (Truck{}) {
 		return "Truck is empty"
 	}
