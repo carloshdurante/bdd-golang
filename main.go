@@ -3,14 +3,14 @@ package main
 import (
 	"fmt"
 
-	"github.com/carloshdurante/bdd-golang/truck"
+	t "github.com/carloshdurante/bdd-golang/truck"
 )
 
 func main() {
-	truck := truck.Truck{
+	truck := t.Truck{
 		Brand: "Ford",
 		Model: "F150",
 	}
 
-	fmt.Println(truck.GetTruck(truck))
+	fmt.Println(t.GetTruck(truck))
 }
